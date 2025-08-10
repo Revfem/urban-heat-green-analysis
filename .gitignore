@@ -1,0 +1,10 @@
+﻿data/
+output/
+*.tif
+*.tiff
+*.jp2
+*.zip
+*.rar
+*.7z
+*.aux.xml
+*.ovr
