@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import shutil
 
 shutil.rmtree("data", ignore_errors=True)
-# link fisier - trb schimbat individual
+# link fisier - trb schimbat individual B10!!
 file_url = "https://drive.google.com/file/d/156ugihit9fWZLt78WhVZKRfbSYsHcbHD/view?usp=drive_link"
 
 
