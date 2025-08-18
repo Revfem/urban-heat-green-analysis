@@ -1,0 +1,22 @@
+name: geo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - gdal=3.7.*
+  - rasterio=1.3.*
+  - rioxarray
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - openjpeg      # pentru .jp2 Sentinel-2
+  - scikit-learn
+  - numpy
+  - pandas
+  - matplotlib
+  - joblib
+  - tqdm
+  - pip
+  - pip:
+      - typer    # dacă folosești CLI cu Typer
