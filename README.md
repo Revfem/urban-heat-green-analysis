@@ -16,7 +16,6 @@ This repository contains code, models, and notebooks to preprocess data, analyze
 - [Examples](#examples)  
 - [Dependencies](#dependencies)  
 - [Contributing](#contributing)  
-- [License](#license)
 
 ---
 
@@ -55,4 +54,57 @@ https://drive.google.com/drive/folders/1sMxe-8vzlGqlBF_GYc6lNSmnJkfIq7Ea?usp=sha
 git clone https://github.com/Revfem/urban-heat-green-analysis.git
 cd urban-heat-green-analysis
 ```
-2.
+2. Create your Python environment:
+  ```bash
+conda env create -f environment.yml
+conda activate urban-heat-env
+```
+3. Install additional dependencies if needed:
+  ```bash
+  pip install -r requirements.txt
+```
+
+## ▶️ Usage
+Run preprocessing scripts:
+```bash
+python scripts/preprocess_data.py
+```
+Run analysis
+```bash
+python scripts/run_analysis.py
+```
+Visualize results
+```bash
+python scripts/visualize_results.py
+```
+## 🗂️ Project Structure
+```graphql
+urban-heat-green-analysis/
+├── data/                     # raw and processed datasets
+├── notebooks/                # exploratory analysis notebooks
+├── scripts/                  # python scripts for each workflow
+├── outputs/                  # figures, maps, and models
+├── environment.yml          
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+## 📊 Dependencies
+Major Python libraries used:
+- numpy, pandas, xarray
+- matplotlib, seaborn
+- scikit‑learn
+- rasterio, geopandas
+…and more listed in requirements.txt or environment.yml.
+
+## 🤝 Contributing
+Contributions are welcome!
+Please open an issue or submit a pull request with clear descriptions of improvements.
+If adding new scripts or notebooks, add documentation or comments so others understand the intent.
+
+
+
+
+
+
