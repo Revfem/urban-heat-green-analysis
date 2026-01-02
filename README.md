@@ -77,6 +77,12 @@ Visualize results
 ```bash
 python scripts/visualize_results.py
 ```
+
+## Example (run full workflow)
+python scripts/preprocess_data.py --input data/raw --output data/processed
+python scripts/run_analysis.py
+python scripts/visualize_results.py
+
 ## Project Structure
 ```graphql
 urban-heat-green-analysis/
