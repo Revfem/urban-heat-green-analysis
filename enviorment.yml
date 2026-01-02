@@ -10,7 +10,7 @@ dependencies:
   - shapely
   - pyproj
   - fiona
-  - openjpeg      # pentru .jp2 Sentinel-2
+  - openjpeg      
   - scikit-learn
   - numpy
   - pandas
@@ -19,4 +19,4 @@ dependencies:
   - tqdm
   - pip
   - pip:
-      - typer    # dacă folosești CLI cu Typer
+      - typer   
