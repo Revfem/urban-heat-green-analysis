@@ -19,7 +19,7 @@ This repository contains code, models, and notebooks to preprocess data, analyze
 
 ---
 
-## 🧠 About the Project
+## About the Project
 
 Urban Heat Islands are urbanized areas that experience higher temperatures than their rural surroundings due to human activities and reduced vegetation. This project aims to:
 
@@ -30,7 +30,7 @@ Urban Heat Islands are urbanized areas that experience higher temperatures than 
 
 ---
 
-## 🗄️ Dataset
+## Dataset
 
 Data used in this project includes:
 
@@ -46,7 +46,7 @@ https://drive.google.com/drive/folders/1sMxe-8vzlGqlBF_GYc6lNSmnJkfIq7Ea?usp=sha
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 
@@ -64,7 +64,7 @@ conda activate urban-heat-env
   pip install -r requirements.txt
 ```
 
-## ▶️ Usage
+## Usage
 Run preprocessing scripts:
 ```bash
 python scripts/preprocess_data.py
@@ -77,7 +77,7 @@ Visualize results
 ```bash
 python scripts/visualize_results.py
 ```
-## 🗂️ Project Structure
+## Project Structure
 ```graphql
 urban-heat-green-analysis/
 ├── data/                     # raw and processed datasets
@@ -90,7 +90,7 @@ urban-heat-green-analysis/
 └── README.md
 ```
 
-## 📊 Dependencies
+## Dependencies
 Major Python libraries used:
 - numpy, pandas, xarray
 - matplotlib, seaborn
@@ -98,7 +98,7 @@ Major Python libraries used:
 - rasterio, geopandas
 …and more listed in requirements.txt or environment.yml.
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome!
 Please open an issue or submit a pull request with clear descriptions of improvements.
 If adding new scripts or notebooks, add documentation or comments so others understand the intent.
