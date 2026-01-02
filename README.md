@@ -78,6 +78,16 @@ Visualize results
 python scripts/visualize_results.py
 ```
 
+## Example Outputs
+### Urban Heat Map
+![Urban Heat Map](example_outputs/lst_30m.png)
+
+### NDVI Map
+![NDVI Map](example_outputs/ndvi_30m.png)
+
+
+### NDBI Map
+![NDBI Map](example_outputs/ndbi_30m.png)
 
 ## Project Structure
 ```graphql
